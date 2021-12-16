@@ -38,7 +38,7 @@ card.addEventListener('change', function (event) {
                 <i class="fas fa-times"></i>
             </span>
             <span>${event.error.message}</span>
-        `
+        `;
         $(errorDiv).html(html);
     } else {
         errorDiv.textContent = '';
@@ -46,7 +46,6 @@ card.addEventListener('change', function (event) {
 });
 
 // Handle form submit
-
 var form = document.getElementById('payment-form');
 
 form.addEventListener('submit', function (ev) {
